@@ -16,7 +16,7 @@ The recommended steps to contribute to a repository are:
 
 Once you have your GitHub account and are familiar with the basic git vocabulary, create your own a repository copy:
 
-1. Go to https://github.com/BatLabLancaster/[repo name]
+1. Go to https://github.com/computationalAstroUAM/[repo name]
 
 2. Click 'Fork' there (right upper corner).
  
@@ -26,7 +26,7 @@ The next step is to get your copy of the repository onto your computer:
 
 2. Clone there the repository, from your OWN local repository:
 
-`git clone https://[git username]@github.com/[git username]/[batlab repo name]`
+`git clone https://[git username]@github.com/[git username]/[repo name]`
 
 You'll be prompt for your GitHub username and password.
 
@@ -49,7 +49,7 @@ Update your personal copy:
 This instructions follow the recommendations on [syncing a fork from GitHub](ttps://help.github.com/articles/syncing-a-fork/). To make sure that your version remains up to date with
 the master version, set the upstream tracking on the command line:
 
-`git remote add --track master upstream https://[git username]@github.com/BatLabLancaster/[batlab repo name]`
+`git remote add --track master upstream https://[git username]@github.com/computationalAstroUAM/[repo name]`
 
 Now, every time you need to apply the changes that have been made to the master version to yours, navigate to your a repository directory and run on the command line:
 

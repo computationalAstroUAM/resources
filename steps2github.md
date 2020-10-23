@@ -1,6 +1,6 @@
 # Using git and GitHub
 
-If you need to: create an account in github and learn the basics with the [basic github resources](https://try.github.io/) and [a cheat sheet](https://zeroturnaround.com/rebellabs/git-commands-and-best-practices-cheat-sheet/).
+If you need to: create an account in github and learn the basics with the [basic github resources](https://try.github.io/) and [a cheat sheet](https://zeroturnaround.com/rebellabs/git-commands-and-best-practices-cheat-sheet/). [Here](https://scientific-programming.github.io/version-control/) you have an overview of what is version control and a an other tutorial, plus some useful ideas on collaborative coding.
 
 Github provides free account upgrades to students and anyone working at a educational/research institute, which allow you to have your own private repositories. To get this upgrade, once you have a personal account, go to this page and fill in the form: https://education.github.com/discount_requests/new
 

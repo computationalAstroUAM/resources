@@ -85,6 +85,16 @@ git add .
 git commit -m "Add a comment here"
 ```
 
+### About conflicts
+If there are [conflicts](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line), git will let you know in which files. Open those files and the conflics will be indicated with `<<<<<<<`. The changes from the HEAD or base branch will appear after the line `<<<<<<< HEAD`. Next, `=======` divides your changes from the changes in the other branch, followed by `>>>>>>> BRANCH-NAME`. You need to decide what you keep. Once you are done, commit:
+
+```
+git commit -m "Resolved merge conflict."
+```
+
+and continue pushing, requesting a pull request, etc.
+
+
 ### (Merge and) Push
 
 You can push changes with:

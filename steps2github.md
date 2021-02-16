@@ -42,20 +42,20 @@ If you need to reset the remote link:
    
 Update your personal copy:
 
-`git push origin master`
+`git push origin main`
 
 ## Track upstream: keeping your copy up-to-date with the main one
 
 This instructions follow the recommendations on [syncing a fork from GitHub](ttps://help.github.com/articles/syncing-a-fork/). To make sure that your version remains up to date with
-the master version, set the upstream tracking on the command line:
+the main version, set the upstream tracking on the command line:
 
-`git remote add --track master upstream https://[git username]@github.com/computationalAstroUAM/[repo name]`
+`git remote add --track main upstream https://[git username]@github.com/computationalAstroUAM/[repo name]`
 
-Now, every time you need to apply the changes that have been made to the master version to yours, navigate to your a repository directory and run on the command line:
+Now, every time you need to apply the changes that have been made to the main version to yours, navigate to your a repository directory and run on the command line:
 
 ```
 git fetch upstream
-git merge upstream/master
+git merge upstream/main
 ```
 
 ## Working on a new (big) feature
@@ -73,7 +73,7 @@ You can check the branches you have by:
 And switch between them with:
 
 ```
-git checkout master
+git checkout main
 git checkout feature
 ```
 
@@ -101,17 +101,17 @@ You can push changes with:
 
 `git push origin feature`
 
-Alternatively, you can merge the changes with the master
+Alternatively, you can merge the changes with the main
 branch first, and then push:
 
 ```
-    git checkout master
+    git checkout main
     git merge feature
-    git push origin master
+    git push origin main
 ```
 
 ## Submit a Pull Request
 
 When you are ready to update the main a repository code, go to your GitHub repository page, click "New pull request" to create a Pull Request from your
 latest commit. It will be applied by someone with
-administrator master version  rights after review.
+administrator main version  rights after review.

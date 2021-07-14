@@ -47,7 +47,7 @@ Update your personal copy:
 ## Track upstream: keeping your copy up-to-date with the main one
 
 This instructions follow the recommendations on [syncing a fork from GitHub](ttps://help.github.com/articles/syncing-a-fork/). To make sure that your version remains up to date with
-the main version, set the upstream tracking on the command line:
+the main version, set the upstream tracking on the command line (chenge master to main if your branch is called main instead):
 
 `git remote add --track master upstream https://[git username]@github.com/computationalAstroUAM/[repo name]`
 

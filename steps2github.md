@@ -42,20 +42,20 @@ If you need to reset the remote link:
    
 Update your personal copy:
 
-`git push origin master`
+`git push origin main`
 
 ## Track upstream: keeping your copy up-to-date with the main one
 
 This instructions follow the recommendations on [syncing a fork from GitHub](ttps://help.github.com/articles/syncing-a-fork/). To make sure that your version remains up to date with
-the main version, set the upstream tracking on the command line (chenge master to main if your branch is called main instead):
+the main version, set the upstream tracking on the command line (change main to the name of your branch):
 
-`git remote add --track master upstream https://[git username]@github.com/computationalAstroUAM/[repo name]`
+`git remote add --track main upstream https://[git username]@github.com/computationalAstroUAM/[repo name]`
 
 Now, every time you need to apply the changes that have been made to the main version to yours, navigate to your a repository directory and run on the command line:
 
 ```
 git fetch upstream
-git merge upstream/master
+git merge upstream/main
 ```
 
 ## Working on a new (big) feature
@@ -73,7 +73,7 @@ You can check the branches you have by:
 And switch between them with:
 
 ```
-git checkout master
+git checkout main
 git checkout feature
 ```
 
